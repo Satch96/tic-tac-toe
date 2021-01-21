@@ -1,0 +1,44 @@
+#header{
+    text-align: center;
+}
+
+#game_container {
+    
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.box{
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 98px;
+}
+
+.box:hover{
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+#modal{
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+}
+.modal_restart{
+    height: 50px;
+    text-align: center;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.winner{
+    color: red;
+}
